@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane onKeyPressed="#onKeyDown" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="454.0" style="-fx-background-color: #131313;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.stonkscloud.systems.app.CalculatorController">
+   <children>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="422.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="311.0" style="-fx-background-color: #202020;" text="0" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="332.0" layoutY="422.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="108.0" style="-fx-background-color: #404040;" text="=" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="332.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="108.0" style="-fx-background-color: #252525;" text="+" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="332.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="108.0" style="-fx-background-color: #252525;" text="-" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="332.0" layoutY="218.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="108.0" style="-fx-background-color: #252525;" text="x" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #202020;" text="1" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #202020;" text="2" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #202020;" text="3" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #202020;" text="4" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #202020;" text="5" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #202020;" text="6" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="218.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #202020;" text="7" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="218.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #202020;" text="8" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="218.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #202020;" text="9" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="332.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="108.0" style="-fx-background-color: #252525;" text="/" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="121.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #252525;" text="⇚" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #ad5236;" text="C" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleCalculateNumber" prefHeight="64.0" prefWidth="100.0" style="-fx-background-color: #252525;" text="\%" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="result" alignment="CENTER_RIGHT" layoutX="15.0" layoutY="52.0" prefHeight="81.0" prefWidth="425.0" style="-fx-border-color: #202020; -fx-padding: 10px;" text="0" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="26.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Text fill="WHITE" layoutX="180.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calculator">
+         <font>
+            <Font name="Ebrima Bold" size="20.0" />
+         </font>
+         <effect>
+            <Glow level="0.97" />
+         </effect>
+      </Text>
+   </children>
+</Pane>
